@@ -1,4 +1,4 @@
-import PostPage from 'components/PostPage'
+import PostPage from 'components/posts/PostPage'
 import PreviewPostPage from 'components/PreviewPostPage'
 import { PreviewSuspense } from 'components/PreviewSuspense'
 import { getPostAndMoreStories, getSettings } from 'lib/sanity.client'

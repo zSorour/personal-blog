@@ -1,6 +1,6 @@
 'use client'
 
-import PostPage from 'components/PostPage'
+import PostPage from 'components/posts/PostPage'
 import { usePreview } from 'lib/sanity.preview'
 import {
   type Post,
