@@ -1,5 +1,5 @@
-import IndexPage from 'components/IndexPage'
-import PreviewIndexPage from 'components/PreviewIndexPage'
+import IndexPage from 'components/indexPage/IndexPage'
+import PreviewIndexPage from 'components/indexPage/PreviewIndexPage'
 import { PreviewSuspense } from 'components/PreviewSuspense'
 import { getAllPosts, getSettings } from 'lib/sanity.client'
 import { previewData } from 'next/headers'

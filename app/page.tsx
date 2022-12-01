@@ -1,4 +1,4 @@
-import IndexPage from 'components/IndexPage'
+import IndexPage from 'components/indexPage/IndexPage'
 import { getAllPosts, getSettings } from 'lib/sanity.client'
 
 // FIXME: https://github.com/sanity-io/nextjs-blog-cms-sanity-v3/issues/95
