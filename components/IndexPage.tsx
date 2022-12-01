@@ -3,7 +3,6 @@ import BlogHeader from 'components/BlogHeader'
 import Layout from 'components/BlogLayout'
 import HeroPost from 'components/posts/HeroPost'
 import MorePosts from 'components/posts/MorePosts'
-import * as demo from 'lib/demo.data'
 import type { Post, Settings } from 'lib/sanity.queries'
 
 export default function IndexPage(props: {
@@ -14,7 +13,7 @@ export default function IndexPage(props: {
 }) {
   const { preview, loading, posts, settings } = props
   const [heroPost, ...morePosts] = posts || []
-  const { title = demo.title, description = demo.description } = settings || {}
+  const { title, description } = settings || {}
 
   return (
     <>

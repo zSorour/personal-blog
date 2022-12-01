@@ -6,7 +6,6 @@ import PostBody from 'components/posts/post/PostBody'
 import PostHeader from 'components/posts/post/PostHeader'
 import PostTitle from 'components/posts/post/PostTitle'
 import SectionSeparator from 'components/UI/SectionSeparator'
-import * as demo from 'lib/demo.data'
 import type { Post, Settings } from 'lib/sanity.queries'
 import { notFound } from 'next/navigation'
 
@@ -18,7 +17,7 @@ export default function PostPage(props: {
 }) {
   const { preview, loading, data, settings } = props
   const { post = {} as any, morePosts = [] } = data || {}
-  const { title = demo.title } = settings || {}
+  const { title } = settings || {}
 
   const slug = post?.slug
 
